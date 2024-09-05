@@ -502,4 +502,70 @@ body {
     bottom: 0;
 }
   
-  
+/* Navbar Styles for Mobile */
+@media only screen and (max-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        background-color: #81b0ad; /* Navbar stays at the top */
+    }
+
+    .icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+    }
+
+    .nav-list ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .nav-list ul li {
+        padding: 5px;
+        margin: 0 8px;
+    }
+}
+
+/* Card Styles for Mobile */
+@media only screen and (max-width: 768px) {
+    .rest-cards {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 70px; /* Adjust for fixed navbar height */
+    }
+
+    .card {
+        width: 90%; /* Full width for mobile */
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .card-icon-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Ensure the search bar is responsive */
+@media only screen and (max-width: 768px) {
+    .search .search-bar {
+        width: 100%; /* Make the search bar full width */
+        max-width: 95%;
+    }
+}
+
+/* Footer adjustments for mobile */
+@media only screen and (max-width: 768px) {
+    .footer {
+        font-size: 14px;
+        padding: 10px 5px;
+    }
+}
