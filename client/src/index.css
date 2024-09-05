@@ -568,8 +568,8 @@ body {
 /* Ensure the search bar is visible and responsive with additional styling */
 @media only screen and (max-width: 768px) {
     .search {
-        width: 50%; /* Full width for the search section */
-        padding: 15px;
+        width: 60%; /* Full width for the search section */
+        padding: 5px;
         align-items: center;
         background-color: #f5f5f5; /* Add a background to distinguish it */
         top: 60px; /* Adjust based on navbar height */
@@ -577,14 +577,7 @@ body {
         position: relative; /* Slightly below the navbar */
     }
 
-    .search-bar {
-        width: 100%; /* Slightly smaller for better spacing */
-        margin: 0 auto;
-        padding: 8px 12px; /* Add padding for better input field feel */
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for elevation */
-    }
+
 }
 
 /* Footer adjustments for mobile */
