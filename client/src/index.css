@@ -240,7 +240,7 @@ body {
     width: 450px;
     padding: 10px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 70px;
     margin-bottom: 10px;
     border-radius: 8px;
 }
@@ -542,10 +542,9 @@ body {
         margin-top: 70px; /* Adjust for fixed navbar height */
     }
 
-    .menu-info {
+    .menu {
         justify-content: center;
         gap: 10px;
-        margin-top: 20px;
     }
 
     .card {
