@@ -557,8 +557,9 @@ body {
 /* Ensure the search bar is responsive */
 @media only screen and (max-width: 768px) {
     .search .search-bar {
-        width: 100%; /* Make the search bar full width */
+        width: 80%; /* Make the search bar full width */
         max-width: 95%;
+        padding: 10px 5px;
     }
 }
 
