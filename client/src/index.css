@@ -62,7 +62,6 @@ body {
 }
 
 .btn:hover {
-    background-color: #ffffff;
     color: #81b0ad;
 }
 
@@ -533,19 +532,20 @@ body {
     }
 }
 
-/* Card Styles for Mobile */
+/* Card Styles for Mobile (2 Cards per Row) */
 @media only screen and (max-width: 768px) {
     .rest-cards {
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        gap: 15px;
+        gap: 10px;
         margin-top: 70px; /* Adjust for fixed navbar height */
     }
 
     .card {
-        width: 90%; /* Full width for mobile */
+        width: 45%; /* Adjust width to fit 2 cards in one row */
         height: auto;
-        margin: 10px auto;
+        margin: 10px;
     }
 
     .card-icon-img {
@@ -554,12 +554,17 @@ body {
     }
 }
 
-/* Ensure the search bar is responsive */
+/* Ensure the search bar is visible and responsive */
 @media only screen and (max-width: 768px) {
-    .search .search-bar {
-        width: 80%; /* Make the search bar full width */
-        max-width: 95%;
-        padding: 10px 5px;
+    .search {
+        width: 100%; /* Full width for the search section */
+        padding: 10px;
+    }
+
+    .search-bar {
+        width: 100%; /* Make the search bar full width */
+        max-width: 100%;
+        margin: 0 auto; /* Center the search bar */
     }
 }
 
