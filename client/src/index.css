@@ -572,12 +572,16 @@ body {
     .search {
         width: 60%; /* Full width for the search section */
         padding: 5px;
-        font-size: 14px;
+        
         align-items: center;
         background-color: #f5f5f5; /* Add a background to distinguish it */
         top: 60px; /* Adjust based on navbar height */
         z-index: 998;
         position: relative; /* Slightly below the navbar */
+    }
+
+    .search .search-bar .search-btn{
+        font-size: 14px;
     }
 
 
