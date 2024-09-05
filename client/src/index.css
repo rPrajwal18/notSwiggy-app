@@ -547,6 +547,11 @@ body {
         gap: 10px;
     }
 
+    .menu-info {
+        font-size: 10px;
+        margin: 0px 10px;
+    }
+
     .card {
         width: 60%; /* Single card in one row with reduced size */
         height: auto;
