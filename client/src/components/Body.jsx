@@ -16,7 +16,7 @@ const Body = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get(`http://localhost:4000/api/restaurants`, {
+      const response = await axios.get(`https://notswiggy-app.onrender.com/api/restaurants`, {
         params: {
           lat: '12.96340',
           lng: '77.58550',
