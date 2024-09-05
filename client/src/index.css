@@ -580,7 +580,7 @@ body {
         position: relative; /* Slightly below the navbar */
     }
 
-    .search .search-bar .search-btn{
+    .search-bar .search-btn{
         font-size: 14px;
     }
 
